@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriDays</title>
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="headermenu">
@@ -17,9 +22,11 @@
                     <li><strong><a href="Pages/nutricion.html">Nutrición</a></strong></li>
                     <li><strong><a href="Pages/progreso.html">Progreso</a></strong></li>
                     <li><strong><a href="Pages/contactanos.html">Contáctanos</a></strong></li>
+                    <li><strong><a href="flex.html">Flex</a></strong></li>
                 </ul>
             </div>
     </header>
+
 
     <main>
     <!--Extra
@@ -29,22 +36,29 @@
         <div class="forma__circulo"></div>
         <div class="forma__cubo--verde"></div>
         <div class="forma__cubo"></div>  /*Extra*/ -->
-        <hr>
+        <!-- <hr> -->
     <section class="containermain">
-    <div class="containermain item1containermain">
-            <h1 id="Ir_a_Inicio"></h1>Bienvenidos a NutriDays</h1>
-            <h1>Nosotros</h1>
-            <a href="#mas_nosotros">Ir a más de nosotros</a>
-            <br>
-            <img src="./Recursos/Nosotros/1.jfif" alt="">
-            <h2 id="mas_nosotros" style="color: blue;"Nosotros 2></h2>
-            <h3>Nosostros 2</h3>
-            <h3>Nosostros 3</h3>
-            <h4>Nosostros 4</h4>
-            <h5>Nosostros 5</h5>
-            <h6>Nosostros 6</h6>
-    </div>
-        <hr>
+    <div class="containermain">
+            <h1 class="" id="Ir_a_Inicio">Bienvenidos a NutriDays</h1>
+        <div class="flex">
+            <div class="section-info">
+                <h2 class="section-header">Nosotros</h2>
+                <a href="#mas_nosotros">Ir a más de nosotros</a>
+                <br>
+            </div>
+            <img class="section-image" src="./Recursos/Nosotros/1.jfif" alt="">
+        </div>
+            <div>
+                <h2 id="mas_nosotros" style="color: blue;"Nosotros 2></h2>
+                <h3>Nosostros 2</h3>
+                <h3>Nosostros 3</h3>
+                <h4>Nosostros 4</h4>
+                <h5>Nosostros 5</h5>
+                <h6>Nosostros 6</h6>
+        </div>
+
+            </div>
+        <!-- <hr> -->
         <div class="containermain item2containermain">
         <h1>Registro</h1>
         <a href="#mas_registro">Ir a más de Registros</a>
@@ -57,7 +71,7 @@
         <h6>Registro 5</h6>
         <h6>Registro 6</h6>
         </div>
-            <hr>
+            <!-- <hr> -->
             <div class="containermain item3containermain">
             <h1>Nutrición</h1>
             <a href="#mas_nutricion">Ir a más de Nutricion</a>
@@ -70,7 +84,7 @@
             <h6>Nutrición 5</h6>
             <h6>Nutrición 6</h6>
             </div>
-                <hr>
+                <!-- <hr> -->
                 <div class="containermain item4containermain">
                 <h1>Progreso</h1>
                 <a href="#mas_progreso">Ir a más de tu Progreso</a>
@@ -83,7 +97,7 @@
                 <h6>Progreso 5</h6>
                 <h6>Progreso 6</h6>
                 </div>
-                    <hr>
+                    <!-- <hr> -->
                     <div class="containermain item5containermain">
                     <h1>Contáctanos</h1>
                     <a href="#mas_contactanos">Ir a más de Contáctanos</a>
@@ -96,7 +110,7 @@
                     <h6>Contáctanos 5</h6>
                     <h6>Contáctanos 6</h6>
                     </div>
-        </section>    
+        </section>
     </main>
 
     <footer>

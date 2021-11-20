@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Shippori Antique B1', sans-serif;
 }
 
 .headermenu{
     font-family: Arial, Helvetica, sans-serif;
     background: #e8e8e8;
+    display: flex;
 }
 
 .headermenulista{
@@ -15,7 +17,7 @@
     width:52%;
     max-width: 1000px;
     margin-right: 0;
-    margin-top: 0s;
+    margin-top: 0;
 }
 .headermenulista li a{
     color: white;
@@ -38,4 +40,28 @@
     margin-top: 10px;
     margin-left: 5px;
     background: url(./Recursos/Logo/Nutridays.jfif)
+}
+
+.containermain {
+    border-top: 1px solid #cccccc;
+}
+
+.section-header {
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+}
+
+
+/*** cosas del flex ***/
+
+.flex {
+    display: flex;
+}
+
+.section-info {
+    flex: 1 1 auto
+}
+
+.section-image {
+    margin: 16px;
 }
